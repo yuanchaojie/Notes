@@ -1,4 +1,8 @@
 # Mac 常用命令
+### 写在前面
+> 写的非常好的教程：[Mac OS X Terminal 101：终端使用初级教程](https://www.renfei.org/blog/mac-os-x-terminal-101.html)
+> 
+> 注意：设置文件|文件夹目录是 不能用空格、’......特殊字符可使用""包含字符串（例如 不能用：cd Programmer's manual 可以使用：cd "Programmer's manual" ）
 
 ### 目录操作
 
