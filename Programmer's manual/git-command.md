@@ -1,7 +1,7 @@
 # git 命令
 git命令补充
 
-###配置
+### 配置
 ```
 
 # 在用户主目录下 配置用户名称和电子邮件地址，
@@ -41,6 +41,14 @@ git clean -f -d or git clean -fd
 # 移除ignored 文件夹
 git clean -f -X or git clean -fX
 ```
+
+### 撤销
+
+```
+# 重置暂存区与工作区，与上一次commit（最新一次commit）保持一致
+$ git reset --hard
+```
+
 参考
 >[How to remove local (untracked) files from the current Git working tree?](https://stackoverflow.com/questions/61212/how-to-remove-local-untracked-files-from-the-current-git-working-tree)
 
