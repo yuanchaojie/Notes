@@ -3,10 +3,10 @@
 ### 写在前面
 
 > 1. [安装PCRE](http://mac-dev-env.patrickbougie.com/pcre/)
-> 2. [安装nginx](https://my.oschina.net/indestiny/blog/220017)
+> 2. [安装Nginx](https://my.oschina.net/indestiny/blog/220017)
 
 ### 安装PCRE
-*** 
+> PCRE介绍：（Perl Compatible Regular Expressions）Perl兼容正则表达式，是一个C语言写的库，灵感来自Perl语言，Nginx依赖库
 
 #### 获取代码
 切换到`/usr/local/src`目录下，[下载pcre对应版本压缩包](http://www.pcre.org/)
@@ -97,3 +97,5 @@ sudo sbin/nginx
 ```
 sudo sbin/nginx -s stop
 ```
+
+
