@@ -50,7 +50,23 @@ open | 使用默认的程序打开文件
 ps -a | 显示所有terminal控制的进程
 ps -u | 显示指定用户的所有进程
 ps aux | 显示所有进程
+ps -ef | 显示所有进程
+> CMD 启动进程需要的命令
+> pid(process ID) 当前进程的id
+> IPC(InterProcessCommunication)进程间通信
+> uid 当前进程的实际用户
+> eid 当前进程的有效用户
 
+参考
+><https://www.jianshu.com/p/c1015f5ffa74>
+
+### 网络操作
+
+命令 | 功能
+--------- | -------------
+sudo lsof -PiTCP -sTCP:LISTEN | 查看所有进程 监听的端口
+`netstat -an | grep 3306`|查看端口占用状态
+`sudo lsof -i -P | grep -i "listen"`|查看所有进程 监听的端口
 
 ### 安全操作
 

@@ -85,7 +85,9 @@ sudo make install
 
 ```
 cd /usr/local/mac-dev-env/nginx-1.14.0 
-sudo sbin/nginx 
+
+sudo sbin/nginx //启动
+sbin/nginx -s reload //平滑重启 
 ```
 检测
 
