@@ -18,14 +18,16 @@
 2.2 删除忘记密码的用户
 
 ### 引用及注释
-.AppleSetupDone 文件：
+
+#####  .AppleSetupDone 文件：
 > 每次系统启动都会去检测是否存在 AppleSetupDone 文件
 > 如果用户已经通过 Setup Assistant 设置了Mac，就会创建AppleSetupDone文件内容为空
 > 如果全新用户 不存在AppleSetupDone文件
 > 所以可以通过删除AppleSetupDone 文件，模拟一个全新用户的状态 
 > 参考 [这里](http://www.theinstructional.com/guides/how-to-re-run-the-os-x-setup-assistant)
 
-Mac 启动相关快捷键
+##### Mac 启动相关快捷键
 
-
+![](https://github.com/yuanchaojie/Notes/blob/master/Sources/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202018-08-27%20%E4%B8%8B%E5%8D%883.42.56.png?raw=true)
+参考[这里](https://www.macobserver.com/tmo/article/15-startup-key-combinations-for-mac)
 
