@@ -31,7 +31,9 @@ Ctrl+(x u) | 按住Ctrl的同时再先后按x和u，撤销刚才的操作
 --------- | -------------
 mkdir | 创建一个目录
 rmdir | 删除一个目录
-pwd | 显示当前目录的内容
+pwd | 显示当前目录的路径
+which <filename> | 显示filename的路径(在BSD or SysV UNIX 中查找)
+
 
 ### 文件操作
 

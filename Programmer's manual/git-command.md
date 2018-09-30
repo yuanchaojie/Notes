@@ -9,6 +9,7 @@ git add . | 所有都加到了暂存区域
 git checkout -- [file]... | 取消对文件的修改
 git rm [file] | 移除某个文件，并连带从工作目录中删除指定的文件
 git rm --cached | 仅是从跟踪清单中删除，可以在.gitignore 文件中补上，忽略此文件
+git diff --stat dev master | 对比两个分支之间的不同
 
 
 
